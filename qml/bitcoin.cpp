@@ -252,8 +252,6 @@ int QmlGuiMain(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-    GUIUtil::LogQtInfo();
-
     handler_message_box.disconnect();
 
     NodeModel node_model{*node};
